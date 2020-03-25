@@ -27,7 +27,7 @@ public class StudentController {
 	
 	@RequestMapping("/home")
 	public @ResponseBody String hello() {
-		return "Hello , Welcome to Student Application !";
+		return "Hello, Welcome to Student Application !";
 	}
 	
 	@GetMapping("/all")
