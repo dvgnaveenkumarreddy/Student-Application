@@ -25,7 +25,7 @@ public class StudentController {
 	@Autowired
 	private StudentRepository studentRepo;
 	
-	@RequestMapping("/home")
+	@RequestMapping("/")
 	public @ResponseBody String hello() {
 		return "Hello, Welcome to Student Application !";
 	}
